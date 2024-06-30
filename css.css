@@ -1,0 +1,396 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+navbar {
+    background: white;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: black;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main {
+    background: url(https://totalnewsagency.com/wp-content/uploads/2022/08/argentina-programa-4-0-capacitara-a-70-000-programadores.png)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+}
+
+.main h3 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.main h6 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #000000;
+    border-bottom: 3px solid rgb(48, 45, 207);
+    width: 40%;
+}
+
+.main .bt1 {
+    height: 55px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt1:hover {
+    background-color: rgb(202, 18, 95);
+    transition: 0.5s;
+}
+
+.main .bt2 {
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: rgb(233, 20, 109);
+    outline: none;
+    border: 1px solid rgb(233, 20, 109);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt2:hover {
+    background-color: rgb(233, 20, 109);
+    transition: 0.5s;
+    color: white;
+}
+
+.about img {
+    -webkit-box-shadow: 6px 4px 15px -15px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 4px 15px -15px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 4px 15px -15px rgba(0, 0, 0, 0.75);
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+.progress{
+    background-color: rgb(238, 225, 225);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.progress p{
+    color: white;
+    padding: 3px 0px 0px 10px;
+
+}
+@keyframes load1 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+@keyframes load2 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes load3 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes load4 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.padding{
+    padding-right: 10px;
+}
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none; background-color: black;
+    color: white;
+    border-radius: 4px;  
+}
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid black; background-color: transparent;
+    color: black;
+    border-radius: 4px;  
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.5s;
+};
+.card{
+    border: none;
+    outline: none;
+}
+.card p {
+    color: gray;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.control ul li{
+    list-style: none;
+    background-color: black;
+    padding: 5px 15px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.item{
+    position: relative;
+}
+.item:hover{
+    -webkit-box-shadow: -8px 6px 109px -65px rgba(0,0,0,0.75);
+-moz-box-shadow: -8px 6px 109px -65px rgba(0,0,0,0.75);
+box-shadow: -8px 6px 109px -65px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.item span{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+}
+.item:hover span{
+    opacity: 1;
+    transition: 0.5s;
+}
+ .item:before{
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(238, 235, 230, 0.479);
+    opacity: 0;
+    position: absolute;
+} 
+
+/* Estilos para la barra de redes sociales */
+.social-bar {
+    position: fixed; /* Posición fija */
+    top: 50%; /* Posición vertical */
+    right: 0; /* Posición horizontal */
+    transform: translateY(-50%); /* Centrar verticalmente */
+    background-color: #333; /* Color de fondo */
+    padding: 10px; /* Espacio entre iconos */
+    border-radius: 10px 0 0 10px; /* Curvar esquinas */
+    z-index: 1000; /* Mostrar encima de otros elementos */
+  }
+  
+  .social-icon {
+    display: block; /* Mostrar iconos en bloque */
+    margin-bottom: 10px; /* Espacio entre iconos */
+    color: #fff; /* Color de texto */
+    text-decoration: none; /* Quitar subrayado */
+  }
+  
+  .social-icon:hover {
+    color: #ccc; /* Color de texto al pasar el mouse */
+  }
+  
+  .social-icon i {
+    font-size: 24px; /* Tamaño de iconos */
+    margin-right: 10px; /* Espacio entre icono y texto */
+  }
+  footer {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    padding: 20px; /* Espacio entre contenido y borde */
+    text-align: center; /* Alinear texto al centro */
+  }
+  
+  .personal-info {
+    display: flex; /* Mostrar contenido en fila */
+    flex-direction: column; /* Mostrar contenido en columna */
+    align-items: center; /* Alinear contenido al centro */
+    margin-bottom: 20px; /* Espacio entre contenido y copyright */
+  }
+  
+  .profile-pic {
+    width: 100px; /* Ancho de la foto de perfil */
+    height: 100px; /* Alto de la foto de perfil */
+    border-radius: 50%; /* Curvar esquinas de la foto de perfil */
+    margin-bottom: 10px; /* Espacio entre foto de perfil y texto */
+  }
+  
+  .social-links {
+    list-style: none; /* Quitar puntos de lista */
+    padding: 0; /* Quitar padding de lista */
+    margin: 0; /* Quitar margen de lista */
+    display: flex; /* Mostrar iconos en fila */
+    justify-content: center; /* Alinear iconos al centro */
+  }
+  
+  .social-links li {
+    margin-right: 10px; /* Espacio entre iconos */
+  }
+  
+  .social-links a {
+    color: #fff; /* Color de texto de iconos */
+    text-decoration: none; /* Quitar subrayado */
+  }
+  
+  .social-links a:hover {
+    color: #ccc; /* Color de texto de iconos al pasar el mouse */
+  }
+  
+  .copyright {
+    font-size: 14px; /* Tamaño de texto de copyright */
+    color: #666; /* Color de texto de copyright */
+    margin-top: 20px; /* Espacio entre copyright y borde */
+  }
+/* 
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #212121; 
+    animation: animate 10s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-color: #212121;
+    }
+    50% {
+        background-color: #333;
+    }
+    100% {
+        background-color: #212121;
+    }
+}
+
+.background:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(farthest-corner at 50% 50%, #444, #333);
+    background-size: 200% 200%;
+    animation: animate-before 10s ease-in-out infinite;
+}
+
+@keyframes animate-before {
+    0% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+} */
