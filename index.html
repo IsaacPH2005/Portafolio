@@ -27,7 +27,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand font-weight-bold" href="#"><img
                         src="https://th.bing.com/th/id/OIP.rBDouMZtW-yy0-ddzkXXFwHaHa?rs=1&pid=ImgDetMain" alt=""
-                        width="50px"></a>
+                        width="50px" class="rounded rounded-circle"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -49,7 +49,7 @@
                             Isaac
                         </h3>
 
-                        <h6 class="pt-3">ESTUDIANTE DE PROGRAMACION</h6>
+                        <h6 class="pt-3">Desarrollador Full-Stack</h6>
                         <a href="#trabajos"><input type="button" value="Mi trabajo" class="bt1 mt-5"></a>
                         <a href="#descripcion"><input type="button" value="YO" class="bt2 mt-5"></a>
                     </div>
@@ -72,27 +72,32 @@
 
                         <div class="progress my-3">
                             <div class="pro-value1">
-                                <p>HTML / CSS <span class="text-white float-end padding">80%</span></p>
+                                <p class="text-success">HTML / CSS <span class="text-white float-end padding">80%</span></p>
                             </div>
                         </div>
                         <div class="progress my-3">
                             <div class="pro-value2">
-                                <p>JAVASCRIPT<span class="text-white float-end padding">60%</span></p>
+                                <p class="text-success">JAVASCRIPT<span class="text-white float-end padding">60%</span></p>
                             </div>
                         </div>
                         <div class="progress">
                             <div class="pro-value3">
-                                <p>VUE CDN <span class="text-white float-end padding">70%</span></p>
+                                <p class="text-success">VUE <span class="text-white float-end padding">80%</span></p>
                             </div>
                         </div>
                         <div class="progress my-3">
                             <div class="pro-value4">
-                                <p>BOOTSTRAP <span class="text-white float-end padding">90%</span></p>
+                                <p class="text-success">BOOTSTRAP <span class="text-white float-end padding">90%</span></p>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="pro-value3">
+                                <p class="text-success">LARAVEL <span class="text-white float-end padding">80%</span></p>
                             </div>
                         </div>
 
-                        <a href="#servicios"><input type="button" class="btn1 mt-5" value="Servicios"> </a>
-                        <a href="#contacto"><input type="button" class="btn2 mt-5" value="Contacto"></a>
+                        <a href="#servicios"><input type="button" class="btn btn-primary" value="Servicios"> </a>
+                        <a href="#contacto"><input type="button" class="btn btn-outline-primary" value="Contacto"></a>
                     </div>
                 </div>
             </div>
@@ -103,19 +108,19 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
-                            <div class="card-header bg-dark-subtle">
+                            <div class="card-header">
                                 <h3>DESCRIPCION</h3>
                             </div>
                             <div class="card-body">
-                                <div class="row">
+                                <div class="row gy-3">
                                     <p class="py-3"><b>Nombre:</b> <span>Isaac Parisaca</span><br>
                                         <b>Edad:</b> <span>19 años</span><br>
                                         <b>Pais:</b> <span>Cochabamba - Bolivia</span> <br>
-                                        <b>Experiencia :</b> <span>2 meses de experiencia en programacion</span><br>
+                                        <b>Experiencia :</b> <span>1 año y 5 meses de experiencia</span><br>
                                     </p>
                                     <ul class="list-group">
                                         <li class="list-group-item"><b>HABILIDADES</b></li>
-                                        <li class="list-group-item">- Conocimientos básicos en lenguajes de programación
+                                        <li class="list-group-item">- Conocimientos intermedios en lenguajes de programación
                                             como HTML, CSS y JavaScript</li>
                                         <li class="list-group-item">- Experiencia en desarrollo web con frameworks como
                                             Bootstrap y Vue</li>
@@ -253,47 +258,249 @@
         </section>
 
 
-        <section class="portfolio py-1" id="trabajos">
-            <div class="container text-center py-5">
-                <h1 class="text-center pb-5">PROYECTOS</h1>
-                <div class="control">
-                    <ul>
-                        <li class="button">Todos</li>
-                    </ul>
+        <!-- Projects Section -->
+<section class="portfolio py-5" id="trabajos">
+    <div class="container py-5">
+        <h1 class="text-center pb-5">PROYECTOS</h1>
+        
+        <!-- Netflix Clone Project -->
+        <div class="project-card">
+            <div class="project-gallery">
+                <div class="gallery-container">
+                    <img src="Img/netflixHorizontal.png" class="gallery-image" alt="Netflix Clone Homepage">
+                    <img src="Img/loginNetflix.png" class="gallery-image" alt="Netflix Browse Page">
                 </div>
-                <div class="row pt-5">
-                    <div class="col-lg-4 pt-3">
-                        <div class="item">
-                            <img src="Img/Netflixx.png" class="img-fluid" alt="" style="height: 700px; width: 100%;">
-                            <a href="https://isaacph2005.github.io/Netflix/" target="_blank"><span><i
-                                        class="fas fa-plus"></i></span></a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 pt-3">
-                        <div class="item">
-                            <img src="Img/HBO.png" class="img-fluid" alt="" style="height: 700px;  width: 100%;">
-                            <a href="https://isaacph2005.github.io/HBO/" target="_blank"><span><i class="fas fa-plus"></i></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 pt-3">
-                        <div class="item">
-                            <img src="Img/Sistema.png"
-                                class="img-fluid" alt="" style="height: 700px;  width: 100%;">
-                            <a href="https://isaacph2005.github.io/Sistema-de-ventas/" target="_blank"><span><i class="fas fa-plus"></i></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 pt-3">
-                        <div class="item">
-                            <img src="Img/coop_web.png  "
-                                class="img-fluid" alt="" style="height: 700px;  width: 100%;">
-                            <a href="https://www.cooperativaloyola.com/" target="_blank"><span><i class="fas fa-plus"></i></span></a>
-                        </div>
-                    </div>
+                <div class="gallery-nav"></div>
+                <div class="gallery-arrow gallery-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="gallery-arrow gallery-next">
+                    <i class="fas fa-chevron-right"></i>
                 </div>
             </div>
-        </section>
+            <div class="project-info">
+                <h3 class="project-title">Netflix Clone</h3>
+                <p class="project-description">
+                    Réplica completa de la interfaz de usuario de Netflix, implementando diseño responsive
+                    y funcionalidades clave como reproducción de videos, navegación por categorías y sistema
+                    de recomendaciones. El proyecto demuestra habilidades en maquetación avanzada y
+                    experiencia de usuario.
+                </p>
+                <div class="project-tags">
+                    <span class="project-tag">HTML5</span>
+                    <span class="project-tag">CSS3</span>
+                    <span class="project-tag">JavaScript</span>
+                    <span class="project-tag">Responsive Design</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://isaacph2005.github.io/Netflix/" class="project-link demo-link" target="_blank">
+                        Ver Demo <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link code-link" target="_blank">
+                        Ver Código <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
 
+        <!-- HBO Clone Project -->
+        <div class="project-card">
+            <div class="project-gallery">
+                <div class="gallery-container">
+                    <img src="Img/hbo_home.png" class="gallery-image" alt="HBO Clone Homepage">
+                </div>
+                <div class="gallery-nav"></div>
+                <div class="gallery-arrow gallery-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="gallery-arrow gallery-next">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">HBO Max Clone</h3>
+                <p class="project-description">
+                    Recreación de la plataforma HBO Max, incluyendo sistema de navegación,
+                    catálogo de contenido y reproductor de medios. El proyecto destaca por su
+                    fidelidad al diseño original y optimización para diferentes dispositivos.
+                </p>
+                <div class="project-tags">
+                    <span class="project-tag">HTML5</span>
+                    <span class="project-tag">CSS3</span>
+                    <span class="project-tag">JavaScript</span>
+                    <span class="project-tag">Bootstrap</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://isaacph2005.github.io/HBO/" class="project-link demo-link" target="_blank">
+                        Ver Demo <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link code-link" target="_blank">
+                        Ver Código <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sistema de Ventas Project -->
+        <div class="project-card">
+            <div class="project-gallery">
+                <div class="gallery-container">
+                    <img src="Img/login_sistema_de_ventas.png" class="gallery-image" alt="Sistema de Ventas Dashboard">
+                    <img src="Img/home_sistema_de_ventas.png" class="gallery-image" alt="Módulo de Inventario">
+                </div>
+                <div class="gallery-nav"></div>
+                <div class="gallery-arrow gallery-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="gallery-arrow gallery-next">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">Sistema de Ventas</h3>
+                <p class="project-description">
+                    Sistema completo de gestión de ventas e inventario con funcionalidades
+                    de facturación, control de stock, reportes y análisis de datos. Incluye
+                    panel de administración y diferentes niveles de acceso de usuarios.
+                </p>
+                <div class="project-tags">
+                    <span class="project-tag">Vue.js</span>
+                    <span class="project-tag">Bootstrap</span>
+                    <span class="project-tag">Node.js</span>
+                    <span class="project-tag">MySQL</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://isaacph2005.github.io/Sistema-de-ventas/" class="project-link demo-link" target="_blank">
+                        Ver Demo <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link code-link" target="_blank">
+                        Ver Código <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="project-card">
+            <div class="project-gallery">
+                <div class="gallery-container">
+                    <img src="Img/home_cooperativa.png" class="gallery-image" alt="Sistema de Ventas Dashboard">
+                    <img src="Img/login_cooperativa.png" class="gallery-image" alt="Módulo de Inventario">
+                    <img src="Img/Cms_cooperativa.png" class="gallery-image" alt="Módulo de Inventario">
+                </div>
+                <div class="gallery-nav"></div>
+                <div class="gallery-arrow gallery-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="gallery-arrow gallery-next">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">Cooperativa Loyola WEB-CMS (En produccion)</h3>
+                <p class="project-description">
+                    Es una página web responsiva y elegante, diseñada para la Cooperativa Loyola. Cuenta con un panel administrativo intuitivo que permite modificar fácilmente todos los datos de la plataforma, desde la calculadora DPF hasta banners y secciones. Este CMS casi completo está construido con las últimas tecnologías, ofreciendo una experiencia de usuario moderna y fluida. Facilita la gestión de contenido y mejora la interacción con los miembros de la cooperativa, adaptándose a sus necesidades específicas.
+                </p>
+                <div class="project-tags">
+                    <span class="project-tag">Vue.js</span>
+                    <span class="project-tag">Bootstrap</span>
+                    <span class="project-tag">Node.js</span>
+                    <span class="project-tag">MySQL</span>
+                    <span class="project-tag">Php</span>
+                    <span class="project-tag">API REST FULL</span>
+                    <span class="project-tag">Google Cloud Platform</span>
+                    <span class="project-tag">CPANEL</span>
+                    <span class="project-tag">SSL</span>
+                    <span class="project-tag">LARAVEL</span>
+                    <span class="project-tag">SPA</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://www.cooperativaloyola.com/" class="project-link demo-link" target="_blank">
+                        Ver Demo <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link code-link" target="_blank">
+                        Ver Código <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-gallery">
+                <div class="gallery-container">
+                    <img src="Img/home_hamilo_web.png" class="gallery-image" alt="Sistema de Ventas Dashboard">
+                    <img src="Img/login_hamilo_web.png" class="gallery-image" alt="Módulo de Inventario">
+                    <img src="Img/CMS_CRM_hamilo.png" class="gallery-image" alt="Módulo de Inventario">
+                </div>
+                <div class="gallery-nav"></div>
+                <div class="gallery-arrow gallery-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="gallery-arrow gallery-next">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">Hamilo WEB-CMS-CRM (En pre produccion)</h3>
+                <p class="project-description">
+                    Hamilo es una plataforma web integral que combina un sistema de gestión de contenido (CMS) y un sistema de gestión de relaciones con clientes (CRM), diseñada para la gestión de estudiantes. Permite a las instituciones educativas administrar eficientemente la información de los estudiantes, incluyendo inscripciones, calificaciones y asistencia, todo desde un panel administrativo intuitivo y personalizable. Con tecnología de última generación, Hamilo ofrece una interfaz moderna y responsiva, garantizando una experiencia de usuario fluida en cualquier dispositivo. Además, se integra fácilmente con otras herramientas y servicios, asegurando la seguridad de los datos y la escalabilidad para adaptarse al crecimiento de la institución. Desarrollado con tecnologías como Vue.js, Node.js y Laravel, Hamilo proporciona un rendimiento óptimo y un servicio confiable en la nube.
+                </p>
+                <div class="project-tags">
+                    <span class="project-tag">Vue.js</span>
+                    <span class="project-tag">Bootstrap</span>
+                    <span class="project-tag">Node.js</span>
+                    <span class="project-tag">MySQL</span>
+                    <span class="project-tag">Php</span>
+                    <span class="project-tag">API REST FULL</span>
+                    <span class="project-tag">Google Cloud Platform</span>
+                    <span class="project-tag">HOSTINGER</span>
+                    <span class="project-tag">SSL</span>
+                    <span class="project-tag">LARAVEL</span>
+                    <span class="project-tag">SPA</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://isaacph2005.github.io/hamilo_web/" class="project-link demo-link" target="_blank">
+                        Ver Demo <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link code-link" target="_blank">
+                        Ver Código <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-gallery">
+                <div class="gallery-container">
+                    <img src="Img/moto_scroll_animacion.png" class="gallery-image" alt="Sistema de Ventas Dashboard">
+                </div>
+                <div class="gallery-nav"></div>
+                <div class="gallery-arrow gallery-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="gallery-arrow gallery-next">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">Animacion Moto-scroll dinamico</h3>
+                <p class="project-description">
+                    Estilos dinamicos mivibles.
+                </p>
+                <div class="project-tags">
+                    <span class="project-tag">Html</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://isaacph2005.github.io/moto-scroll/" class="project-link demo-link" target="_blank">
+                        Ver Demo <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link code-link" target="_blank">
+                        Ver Código <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
         <!-- Contenedor de la barra de redes sociales -->
         <div class="social-bar">
@@ -347,7 +554,53 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
-
+    <!-- Add this JavaScript at the end of your body tag -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize all project galleries
+        document.querySelectorAll('.project-gallery').forEach(gallery => {
+            const container = gallery.querySelector('.gallery-container');
+            const images = gallery.querySelectorAll('.gallery-image');
+            const nav = gallery.querySelector('.gallery-nav');
+            const prev = gallery.querySelector('.gallery-prev');
+            const next = gallery.querySelector('.gallery-next');
+            let currentIndex = 0;
+    
+            // Create navigation dots
+            images.forEach((_, index) => {
+                const dot = document.createElement('div');
+                dot.classList.add('gallery-dot');
+                if (index === 0) dot.classList.add('active');
+                dot.addEventListener('click', () => goToSlide(index));
+                nav.appendChild(dot);
+            });
+    
+            // Navigation functions
+            function goToSlide(index) {
+                currentIndex = index;
+                container.style.transform = `translateX(-${index * 100}%)`;
+                updateDots();
+            }
+    
+            function updateDots() {
+                gallery.querySelectorAll('.gallery-dot').forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+    
+            // Event listeners for arrows
+            prev.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                goToSlide(currentIndex);
+            });
+    
+            next.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % images.length;
+                goToSlide(currentIndex);
+            });
+        });
+    });
+    </script>
 </body>
 
 </html>
